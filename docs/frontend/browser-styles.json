@@ -1,0 +1,72 @@
+[
+  {
+    "selector": "body",
+    "color": "rgb(38, 41, 35)",
+    "background": "rgba(0, 0, 0, 0)",
+    "font": "\"DM Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "rgb(38, 41, 35)",
+    "outlineWidth": "0px"
+  },
+  {
+    "selector": ".muted",
+    "color": "rgb(96, 99, 87)",
+    "background": "rgba(0, 0, 0, 0)",
+    "font": "\"DM Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontSize": "12px",
+    "lineHeight": "19.2px",
+    "outline": "rgb(96, 99, 87)",
+    "outlineWidth": "0px"
+  },
+  {
+    "selector": ".button.primary",
+    "color": "rgb(38, 41, 35)",
+    "background": "rgb(214, 255, 95)",
+    "font": "\"DM Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontSize": "14px",
+    "lineHeight": "19.6px",
+    "outline": "rgb(38, 41, 35)",
+    "outlineWidth": "0px"
+  },
+  {
+    "selector": ".tier-result",
+    "color": "rgb(56, 81, 38)",
+    "background": "rgb(234, 242, 216)",
+    "font": "\"DM Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "rgb(56, 81, 38)",
+    "outlineWidth": "0px"
+  },
+  {
+    "selector": ".badge.warning",
+    "color": "rgb(133, 80, 0)",
+    "background": "rgb(255, 240, 217)",
+    "font": "\"DM Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontSize": "10px",
+    "lineHeight": "14px",
+    "outline": "rgb(133, 80, 0)",
+    "outlineWidth": "0px"
+  },
+  {
+    "selector": ".input-unit",
+    "color": "rgb(38, 41, 35)",
+    "background": "rgb(251, 250, 247)",
+    "font": "\"DM Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "rgb(38, 41, 35)",
+    "outlineWidth": "0px"
+  },
+  {
+    "selector": ":focus-visible",
+    "color": "rgb(38, 41, 35)",
+    "background": "rgba(0, 0, 0, 0)",
+    "font": "\"DM Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontSize": "20px",
+    "lineHeight": "30px",
+    "outline": "rgb(70, 102, 43)",
+    "outlineWidth": "3px"
+  }
+]

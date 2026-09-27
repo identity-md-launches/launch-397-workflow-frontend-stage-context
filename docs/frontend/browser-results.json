@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-27T07:47:48.322Z",
+  "browser": "Playwright Chromium 140",
+  "servedAt": "/preview/",
+  "mode": "mocked RPC and injected wallet; no broadcasts",
+  "passed": [
+    "Subpath export, missing wallet, live reads, fee tiers and history filter",
+    "Unknown chain: switch → exact addEthereumChain → switch; account change invalidation",
+    "Buy validation, failed simulation blocks signing, successful swap encoding and receipt",
+    "Sell exact-amount router approval, refreshed quote, wallet rejection and successful sell",
+    "Donation simulation, exact pool key, successful receipt and empty accrual state",
+    "Empty event window and zero in-range liquidity disable donation",
+    "Quote expiration and wallet disconnect invalidate swap controls",
+    "Tampered implementation ABI prevents app initialization",
+    "Missing code blocks all transactions and exposes a recoverable error",
+    "Rendered desktop/mobile/tablet reflow, keyboard focus, local fonts and axe scan"
+  ],
+  "consoleErrors": []
+}

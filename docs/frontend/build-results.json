@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-27T07:48:38.526Z",
+  "node": "v22.23.3",
+  "checks": [
+    {
+      "command": "npm --prefix web ci --offline --cache ./test/scratch/npm-cache --no-audit --no-fund",
+      "exitCode": 0,
+      "output": "\nadded 44 packages in 10s\n"
+    },
+    {
+      "command": "npm --prefix web run build",
+      "exitCode": 0,
+      "output": "\n> gas-tax-lab@1.0.0 build\n> npm run typecheck && vite build && node scripts/manifest.mjs\n\n\n> gas-tax-lab@1.0.0 typecheck\n> tsc --noEmit\n\nvite v7.1.7 building for production...\ntransforming...\n✓ 556 modules transformed.\nrendering chunks...\ncomputing gzip size...\n../dist/index.html                             0.97 kB │ gzip:  0.59 kB\n../dist/assets/dm-sans-latin-Xz1IZZA0.woff2   36.93 kB\n../dist/assets/index-DKh8HiCO.css             18.35 kB │ gzip:  4.64 kB\n../dist/assets/react-CiW5Bwbg.js              11.72 kB │ gzip:  4.17 kB\n../dist/assets/index-D170XHc6.js             209.45 kB │ gzip: 66.44 kB\n../dist/assets/ethereum-DKosxqRl.js          312.77 kB │ gzip: 96.36 kB\n✓ built in 4.63s\nVerified 2 pinned ABIs; inventoried 12 export assets.\n"
+    },
+    {
+      "command": "npm --prefix web run verify:export",
+      "exitCode": 0,
+      "output": "\n> gas-tax-lab@1.0.0 verify:export\n> node scripts/verify-export.mjs\n\n{\n  \"verified\": true,\n  \"contracts\": 2,\n  \"assets\": 12,\n  \"exportBytes\": 633396\n}\n"
+    }
+  ],
+  "manifestSha256": "4f6fd38f650dfb66ed1d04eb302e97b0f6ac6a8576bc73f1ff2eaa7a743c5cfd",
+  "identicalToBrowserTestedExport": true
+}

@@ -1,0 +1,29 @@
+{
+  "name": "gas-tax-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && vite",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build && node scripts/manifest.mjs",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:browser": "node tests/browser.mjs",
+    "verify:export": "node scripts/verify-export.mjs"
+  },
+  "dependencies": {
+    "@wagmi/core": "2.22.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "viem": "2.56.9"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@playwright/test": "1.55.1",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.9.2",
+    "vite": "7.1.7"
+  }
+}

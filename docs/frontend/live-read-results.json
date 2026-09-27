@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-09-27T07:28:40.482Z",
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "sourceCommit": "c961c3ddcba49b506d15a815128a736a5a60690c",
+  "mode": "read-only; no wallet or broadcasts",
+  "chainId": 11155111,
+  "blockNumber": "11791838",
+  "blockHash": "0x24348f1c1562670ce601d46f943139d236070437aaf7ed620a8d4ce344a88979",
+  "baseFeePerGas": "1121191686",
+  "code": [
+    {
+      "name": "GASP",
+      "address": "0x2c30bf926f3c484f87e59401db46b464ed4fd2c4",
+      "bytes": 1503,
+      "keccak256": "0xb4a00e67e7ce24bf06af1b1ca3ccc0c1817e0ce58e6a20dbb60c63a3f91e3d5d"
+    },
+    {
+      "name": "GasPriceFeeHook",
+      "address": "0xd90f346433aab958a88c90c61f1850f3c62d4044",
+      "bytes": 4721,
+      "keccak256": "0x5201186b01a2e2131dd71f1d0cfe5ca5a267e899e49ebec6deef4ed98294c9ed"
+    },
+    {
+      "name": "poolManager",
+      "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "bytes": 24009,
+      "keccak256": "0x09930125a49f5b95caf8052991cc14d1240dca8b43f42b899115b86867e4bce1"
+    },
+    {
+      "name": "quoter",
+      "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "bytes": 5820,
+      "keccak256": "0xf481a751ac453d40c46d12360b85b05472028c1b113ab63749d69a5f8b0e47d1"
+    },
+    {
+      "name": "stateView",
+      "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "bytes": 3531,
+      "keccak256": "0xaaed3db8eb8ebde8014ce4c8a3938496687f4c6374e17a7d735288f6c65ceb9e"
+    },
+    {
+      "name": "PoolSwapTest",
+      "address": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+      "bytes": 6950,
+      "keccak256": "0xf8a61d4430eff587aa3c2fea734e3a5e54125a7e516fe1734b2c3c5f0cf1ac39"
+    }
+  ],
+  "pool": {
+    "key": {
+      "currency0": "0x0000000000000000000000000000000000000000",
+      "currency1": "0x2c30bf926f3c484f87e59401db46b464ed4fd2c4",
+      "fee": 3000,
+      "tickSpacing": 60,
+      "hooks": "0xd90f346433aab958a88c90c61f1850f3c62d4044"
+    },
+    "poolId": "0x6c58973501717fb2bca146cc72b92f9d88d7aaf739934a20c453a57c647c0f16",
+    "slot0": [
+      "560227709747861399187319382274582",
+      177284,
+      0,
+      3000
+    ],
+    "liquidity": "0",
+    "accrued": [
+      "0",
+      "0"
+    ]
+  },
+  "token": {
+    "decimals": 18,
+    "symbol": "GASP"
+  },
+  "managers": {
+    "hookManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+    "routerManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+  },
+  "quotes": [
+    {
+      "direction": "ETH → GASP",
+      "error": "The total cost (gas * gas fee + value) of executing this transaction exceeds the balance of the account."
+    },
+    {
+      "direction": "GASP → ETH",
+      "error": "The contract function \"quoteExactInputSingle\" reverted with the following signature:\n0x6190b2b0"
+    }
+  ],
+  "success": true
+}

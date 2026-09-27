@@ -1,0 +1,58 @@
+[
+  {
+    "selector": "body",
+    "foreground": "rgb(38, 41, 35)",
+    "background": "rgb(245, 244, 239)",
+    "ratio": 13.39,
+    "requirement": 4.5
+  },
+  {
+    "selector": ".muted",
+    "foreground": "rgb(96, 99, 87)",
+    "background": "rgb(251, 250, 247)",
+    "ratio": 5.88,
+    "requirement": 4.5
+  },
+  {
+    "selector": ".button.primary",
+    "foreground": "rgb(38, 41, 35)",
+    "background": "rgb(214, 255, 95)",
+    "ratio": 12.87,
+    "requirement": 4.5
+  },
+  {
+    "selector": ".tier-result",
+    "foreground": "rgb(56, 81, 38)",
+    "background": "rgb(234, 242, 216)",
+    "ratio": 7.67,
+    "requirement": 4.5
+  },
+  {
+    "selector": ".badge.warning",
+    "foreground": "rgb(133, 80, 0)",
+    "background": "rgb(255, 240, 217)",
+    "ratio": 5.95,
+    "requirement": 4.5
+  },
+  {
+    "selector": ".router-note",
+    "foreground": "rgb(96, 99, 87)",
+    "background": "rgb(238, 238, 231)",
+    "ratio": 5.27,
+    "requirement": 4.5
+  },
+  {
+    "selector": ":focus-visible",
+    "foreground": "rgb(70, 102, 43)",
+    "background": "rgb(251, 250, 247)",
+    "ratio": 6.3,
+    "requirement": 3
+  },
+  {
+    "selector": ".input-unit",
+    "foreground": "rgb(136, 139, 125)",
+    "background": "rgb(251, 250, 247)",
+    "ratio": 3.33,
+    "requirement": 3
+  }
+]
